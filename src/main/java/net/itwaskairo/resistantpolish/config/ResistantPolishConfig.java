@@ -49,9 +49,13 @@ public class ResistantPolishConfig {
             public final ForgeConfigSpec.IntValue resistantPolishDecayValue;
 
             Server(ForgeConfigSpec.Builder builder) {
+                builder.push("polish_values");
+
                 resistantPolishDecayValue = builder
                         .comment("Decay value for resistant polish")
                         .defineInRange("decay_value", -5, -100, 100);
+
+                builder.pop();
             }
         }
 }

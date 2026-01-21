@@ -1,7 +1,7 @@
-package net.itwaskairo.resistantpolish.items.custom;
+package net.itwaskairo.resistantpolish.items.custom.nonconsumable;
 
 import net.itwaskairo.resistantpolish.events.data.ResistantPolishValueData;
-import net.itwaskairo.resistantpolish.utility.tooltip.PolishOMeterTooltip;
+import net.itwaskairo.resistantpolish.utility.tooltip.TooltipHelper;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
@@ -27,7 +27,7 @@ public class PolishOMeterItem extends Item {
             List<Component> tooltip,
             TooltipFlag flag
     ) {
-        PolishOMeterTooltip.addTooltip(stack, level, tooltip, flag);
+        TooltipHelper.addTooltip(stack, level, tooltip, flag);
     }
 
     @Override
@@ -57,9 +57,9 @@ public class PolishOMeterItem extends Item {
             serverLevel.playSound(
                     null,
                     player.blockPosition(),
-                    SoundEvents.SCULK_SHRIEKER_SHRIEK,
+                    SoundEvents.COPPER_HIT,
                     SoundSource.PLAYERS,
-                    1F,
+                    1.3F,
                     soundPitch
             );
         }

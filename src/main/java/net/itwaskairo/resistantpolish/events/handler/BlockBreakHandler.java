@@ -1,12 +1,8 @@
 package net.itwaskairo.resistantpolish.events.handler;
 
 import net.itwaskairo.resistantpolish.ResistantPolish;
-import net.itwaskairo.resistantpolish.config.ResistantPolishConfig;
 import net.itwaskairo.resistantpolish.events.data.ResistantPolishValueData;
 import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraftforge.event.level.BlockEvent;
