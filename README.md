@@ -1,5 +1,6 @@
-This code is for 1.20.1 ver of the mod! 
+⚠️ This repository targets Minecraft 1.20.1.
 
-If you want the 1.21.11 repo, refer to to my discord: itwaskairo
+The 1.21.11 source is currently maintained in a separate repository
+and will be published publicly once development stabilizes.
 
-Say hi to me on discord, Im curious what you think of the code o/
+In the meantime, feel free to reach out on Discord: itwaskairo
